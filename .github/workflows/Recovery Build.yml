@@ -25,11 +25,11 @@ on:
         default: 'device/samsung/a13ve'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
-        required: true
+        required: false
         default: 'https://github.com/MizuNotCool/android_device_samsung_mt6768-common'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: true
+        required: false
         default: 'device/samsung/mt6768-common'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
